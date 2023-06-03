@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: rgb(246, 243, 249);
+}
+body {
+    font-style:unset; 
+
+}
+nav{
+    padding:65px;
+    margin: 10px;
+}
+ ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    cursor: pointer;
+}
+ button{
+   background-color:  blueviolet;
+   padding: 5px 15px;
+   color:white;
+   border-radius: 6px;
+   font-size: 15px;
+   cursor: pointer;
+   border: none;
+   margin-left: 520px;
+}
+button:hover{
+    background-color:rgb(246, 243, 249) ;
+    border:1px solid blueviolet;
+    color: blueviolet;
+}
+main{
+    display: flex;
+    align-items: center;
+}
+.LeftMain{
+    padding:65px;
+    margin: 5px; 
+}
+.LeftMain h1{
+    font-size: 70px;
+    width:375px;
+   
+}
+.LeftMain p{
+font-size: 20px;
+
+width: 650px;
+}
+.LeftMain span{
+    color: blueviolet;
+}
+.LeftMain button{
+    margin-left: 5px; 
+    margin-top:40px
+ }
+ .RightMain img{
+   /* border: 5px solid red; */
+   margin-left: 80px;
+  width: 75%;
+  /* border: 2px solid red; */
+  padding-bottom: 100px;
+ 
+ }
